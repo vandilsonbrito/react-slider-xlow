@@ -1,0 +1,118 @@
+
+  .sliderContainer {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .sliderWrapper {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    
+    .slideContent {
+      position: relative;
+      height: 400px;
+    }
+    
+    .slideLink {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .slideImage {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .navButton {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .navButton:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      transform: translateY(-50%) scale(1.1);
+    }
+    
+    .prevButton {
+      left: 10px;
+    }
+    
+    .nextButton {
+      right: 10px;
+    }
+    
+    .arrowIcon {
+      font-size: 24px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    
+    .dotsContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+      gap: 8px;
+    }
+    
+    .dot {
+      width: 6px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #ccc;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .dot:hover {
+      background-color: #aaa;
+    }
+    
+    .activeDot {
+      background-color: #3b82f6;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .slideContent {
+        height: 250px;
+      }
+    
+      .navButton {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+      }
+    
+      .dot {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+
