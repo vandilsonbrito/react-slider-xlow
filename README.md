@@ -14,7 +14,7 @@
 
 ## Descrição
 
-- Seguindo o que foi proposto no desafio de fazer um slider utilizando React, esse é meu projeto.
+- Seguindo o que foi proposto no desafio de fazer um slider utilizando React, esse é meu projeto, contendo todas as funcionalidades propostas.
 
 ---
 
